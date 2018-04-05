@@ -1,0 +1,1627 @@
+targetfs:
+total 68
+drwxrwxr-x 2 tanya tanya 4096 2016-01-27 11:05 bin
+drwxr-xr-x 5 tanya tanya 4096 2015-09-17 20:33 dev
+drwxr-xr-x 9 tanya tanya 4096 2016-04-12 22:20 etc
+drwxrwxr-x 6 tanya tanya 4096 2016-04-12 22:28 home
+-rwxr-xr-x 1 tanya tanya  176 2015-07-26 17:00 init
+drwxrwxr-x 3 tanya tanya 4096 2015-09-17 20:49 lib
+lrwxrwxrwx 1 tanya tanya    3 2016-06-01 17:52 lib32 -> lib
+drwxr-xr-x 2 tanya tanya 4096 2015-09-17 20:49 libexec
+lrwxrwxrwx 1 tanya tanya   11 2016-06-01 17:52 linuxrc -> bin/busybox
+drwxrwxrwx 3 tanya tanya 4096 2015-09-29 12:20 media
+drwxrwxr-x 2 tanya tanya 4096 2015-02-11 18:28 mnt
+drwxrwxr-x 2 tanya tanya 4096 2015-02-11 18:28 opt
+drwxrwxr-x 2 tanya tanya 4096 2015-02-11 18:28 proc
+drwx------ 2 tanya tanya 4096 2015-09-17 21:27 root
+lrwxrwxrwx 1 tanya tanya    3 2016-06-01 17:52 run -> tmp
+drwxrwxr-x 2 tanya tanya 4096 2016-04-03 10:21 sbin
+drwxrwxr-x 2 tanya tanya 4096 2015-02-11 18:28 sys
+drwxrwxrwt 4 tanya tanya 4096 2015-09-17 21:27 tmp
+drwxrwxr-x 7 tanya tanya 4096 2015-09-16 12:54 usr
+drwxrwxr-x 4 tanya tanya 4096 2015-07-26 17:00 var
+
+targetfs/bin:
+total 1320
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 ash -> busybox
+-rwxr-xr-x 1 tanya tanya 669692 2016-01-27 11:05 back_busybox
+-rwsr-xr-x 1 tanya tanya 679344 2016-04-03 10:22 busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 cat -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 catv -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 chattr -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 chgrp -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 chmod -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 chown -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 cp -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 cpio -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 date -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 dd -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 df -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 dmesg -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 dnsdomainname -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 dumpkmap -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 echo -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 egrep -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 false -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 fdflush -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 fgrep -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 getopt -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 grep -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 gunzip -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 gzip -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 hostname -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 kill -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 linux32 -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 linux64 -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 ln -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 login -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 ls -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 lsattr -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mkdir -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mknod -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mktemp -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 more -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mount -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mountpoint -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mt -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 mv -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 netstat -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 nice -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 pidof -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 ping -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 pipe_progress -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 printenv -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 ps -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 pwd -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 rm -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 rmdir -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 run-parts -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 sed -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 setarch -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 setserial -> busybox
+lrwxrwxrwx 1 tanya tanya     12 2016-06-01 17:52 sh -> /bin/busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 sleep -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 stty -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 su -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 sync -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 tar -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 touch -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 true -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 umount -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 uname -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 usleep -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 vi -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 watch -> busybox
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 zcat -> busybox
+
+targetfs/dev:
+total 12
+-rw--w--w- 1 tanya tanya    0 2015-09-17 20:49 console
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 fb0
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 fb1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 fb2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 fb3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda10
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda11
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda12
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda13
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda14
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda15
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda4
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda5
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda6
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda7
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda8
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hda9
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb10
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb11
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb12
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb13
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb14
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb15
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb4
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb5
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb6
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb7
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb8
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hdb9
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hvc0
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hvc1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hvc2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 hvc3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 i2c-0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 i2c-1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 i2c-2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 i2c-3
+drwxr-xr-x 2 tanya tanya 4096 2015-09-17 20:33 input
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 kmem
+lrwxrwxrwx 1 tanya tanya   10 2016-06-01 17:52 log -> ../tmp/log
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 loop0
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 loop1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mem
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtd0
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtd1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtd2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtd3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtdblock0
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtdblock1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtdblock2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 mtdblock3
+drwxr-xr-x 2 tanya tanya 4096 2015-09-17 20:33 net
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 null
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 psaux
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptmx
+drwxrwxr-x 2 tanya tanya 4096 2015-02-11 18:28 pts
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp4
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp5
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp6
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp7
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp8
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ptyp9
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ram
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ram0
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ram1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ram2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ram3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 random
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 rtc
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda10
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda11
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda12
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda13
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda14
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda15
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda4
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda5
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda6
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda7
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda8
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sda9
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb10
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb11
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb12
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb13
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb14
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb15
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb4
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb5
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb6
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb7
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb8
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 sdb9
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty4
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty5
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty6
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 tty7
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAM0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAM1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAM2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAMA0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAMA1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAMA2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyAMA3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyCPM0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyCPM1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyCPM2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyCPM3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttymxc0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttymxc1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttymxc2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttymxc3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyP0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyP1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyP2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyP3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp4
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp5
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp6
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp7
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp8
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyp9
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyPSC0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyPSC1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyPSC2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyPSC3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyS0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyS1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyS2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyS3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySAC0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySAC1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySAC2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySAC3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC4
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC5
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC6
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttySC7
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyUL0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyUL1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyUL2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 ttyUL3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba4
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba5
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 uba6
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb1
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb2
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb3
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb4
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb5
+-rw-r----- 1 tanya tanya    0 2015-09-17 20:41 ubb6
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 urandom
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 video0
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 video1
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 video2
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 video3
+-rw-rw-rw- 1 tanya tanya    0 2015-09-17 20:41 zero
+
+targetfs/dev/input:
+total 0
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 event0
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 event1
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 event2
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 event3
+-rw-r----- 1 tanya tanya 0 2015-09-17 20:41 mice
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 mouse0
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 mouse1
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 mouse2
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 mouse3
+
+targetfs/dev/net:
+total 0
+-rw-rw---- 1 tanya tanya 0 2015-09-17 20:41 tun
+
+targetfs/dev/pts:
+total 0
+
+targetfs/etc:
+total 128
+drwxrwxr-x 4 tanya tanya  4096 2015-07-26 16:47 dbus-1
+-rw-r--r-- 1 tanya tanya  1247 2015-07-26 16:47 dhcpcd.conf
+drwxrwxr-x 2 tanya tanya  4096 2015-12-01 17:52 dropbear
+-rw-rw-r-- 1 tanya tanya    57 2015-09-29 12:14 exports
+-rw-rw-r-- 1 tanya tanya   541 2015-10-06 17:28 fstab
+-rw-rw-r-- 1 tanya tanya   329 2015-10-21 16:30 group
+-rw-rw-r-- 1 tanya tanya     4 2015-09-17 20:49 hostname
+-rw-rw-r-- 1 tanya tanya    34 2015-09-17 20:49 hosts
+drwxrwxr-x 2 tanya tanya  4096 2016-04-12 21:40 init.d
+-rw-rw-r-- 1 tanya tanya  1142 2015-09-17 20:49 inittab
+-rw-rw-r-- 1 tanya tanya  1180 2015-02-11 18:28 inputrc
+drwxr-xr-x 2 tanya tanya  4096 2016-04-03 10:17 iproute2
+-rw-rw-r-- 1 tanya tanya    21 2015-09-17 20:49 issue
+-rw-r--r-- 1 tanya tanya    64 2015-09-17 20:49 ld.so.cache
+-rw-rw-r-- 1 tanya tanya     0 2015-09-17 20:49 ld.so.conf
+drwxrwxr-x 2 tanya tanya  4096 2015-02-11 18:28 ld.so.conf.d
+-rw-r--r-- 1 tanya tanya   876 2016-01-26 18:50 mdev.conf
+-rw-r--r-- 1 tanya tanya   956 2015-07-30 18:57 mke2fs.conf
+lrwxrwxrwx 1 tanya tanya    12 2016-06-01 17:52 mtab -> /proc/mounts
+-rw-r--r-- 1 tanya tanya   767 2015-07-26 16:45 netconfig
+drwxrwxr-x 8 tanya tanya  4096 2015-10-21 13:47 network
+-rw-r--r-- 1 tanya tanya   230 2015-07-26 17:00 nsswitch.conf
+-rw-rw-r-- 1 tanya tanya    95 2015-12-13 13:29 os-release
+-rw-r--r-- 1 tanya tanya   486 2015-12-01 17:54 passwd
+-rw-rw-r-- 1 tanya tanya  1388 2015-02-11 18:28 profile
+-rw-rw-r-- 1 tanya tanya  2744 2015-02-11 18:28 protocols
+-rw------- 1 tanya tanya   512 2016-04-12 22:28 random-seed
+lrwxrwxrwx 1 tanya tanya    18 2016-06-01 17:52 resolv.conf -> ../tmp/resolv.conf
+-rwxr-xr-x 1 tanya tanya  3729 2015-07-26 16:55 screenrc
+-rw-rw-r-- 1 tanya tanya   386 2015-02-11 18:28 securetty
+-rw-rw-r-- 1 tanya tanya 10873 2015-02-11 18:28 services
+-rw------- 1 tanya tanya   297 2015-12-01 17:54 shadow
+drwxrwxr-x 5 tanya tanya  4096 2015-07-26 16:55 ssl
+
+targetfs/etc/dbus-1:
+total 16
+-rw-r--r-- 1 tanya tanya 2883 2015-07-26 16:47 session.conf
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 16:47 session.d
+-rw-r--r-- 1 tanya tanya 2990 2015-07-26 16:47 system.conf
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 16:47 system.d
+
+targetfs/etc/dbus-1/session.d:
+total 0
+
+targetfs/etc/dbus-1/system.d:
+total 0
+
+targetfs/etc/dropbear:
+total 4
+-rw-rw-rw- 1 tanya tanya 805 2015-12-01 17:52 dropbear_rsa_host_key
+
+targetfs/etc/init.d:
+total 56
+-rwxrwxr-x 1 tanya tanya  423 2015-02-11 18:28 rcK
+-rwxrwxr-x 1 tanya tanya  408 2015-02-11 18:28 rcS
+-rwxr-xr-x 1 tanya tanya  495 2015-07-26 16:46 S01logging
+-rwxr-xr-x 1 tanya tanya  241 2016-01-26 18:50 S10mdev
+-rwxrwxr-x 1 tanya tanya 1365 2015-02-11 18:28 S20urandom
+-rwxr-xr-x 1 tanya tanya 1769 2015-07-26 16:47 S30dbus
+-rwxr-xr-x 1 tanya tanya  455 2015-07-26 16:55 S30rpcbind
+-rwxrwxr-x 1 tanya tanya  281 2015-02-11 18:28 S40network
+-rwxr-xr-x 1 tanya tanya  697 2015-10-21 12:59 S50dropbear
+-rwxr-xr-x 1 tanya tanya 1768 2015-07-26 16:52 S60nfs
+-rwxrwxr-x 1 tanya tanya   61 2015-09-29 12:14 S85mount.sh
+-rwxrwxr-x 1 tanya tanya  686 2016-04-04 21:57 S92wd.sh
+-rwxrwxr-x 1 tanya tanya  157 2016-01-27 12:05 _S93ftp.sh
+-rwxrwxr-x 1 tanya tanya  901 2016-04-12 21:31 S99network_conf.sh
+
+targetfs/etc/iproute2:
+total 28
+-rw-r--r-- 1 tanya tanya  75 2016-04-03 09:23 ematch_map
+-rw-r--r-- 1 tanya tanya  31 2016-04-03 09:23 group
+-rw-r--r-- 1 tanya tanya 320 2016-04-03 09:23 rt_dsfield
+-rw-r--r-- 1 tanya tanya 317 2016-04-03 09:23 rt_protos
+-rw-r--r-- 1 tanya tanya 112 2016-04-03 09:23 rt_realms
+-rw-r--r-- 1 tanya tanya  92 2016-04-03 09:23 rt_scopes
+-rw-r--r-- 1 tanya tanya 101 2016-04-04 21:49 rt_tables
+
+targetfs/etc/ld.so.conf.d:
+total 0
+
+targetfs/etc/network:
+total 28
+drwxr-xr-x 2 tanya tanya 4096 2015-02-11 18:28 if-down.d
+drwxr-xr-x 2 tanya tanya 4096 2015-02-11 18:28 if-post-down.d
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 17:00 if-post-up.d
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 17:00 if-pre-down.d
+drwxr-xr-x 2 tanya tanya 4096 2015-02-11 18:28 if-pre-up.d
+drwxr-xr-x 2 tanya tanya 4096 2015-02-11 18:28 if-up.d
+-rw-rw-r-- 1 tanya tanya  145 2015-10-06 15:31 interfaces
+
+targetfs/etc/network/if-down.d:
+total 0
+
+targetfs/etc/network/if-post-down.d:
+total 0
+
+targetfs/etc/network/if-post-up.d:
+total 0
+
+targetfs/etc/network/if-pre-down.d:
+total 0
+
+targetfs/etc/network/if-pre-up.d:
+total 0
+
+targetfs/etc/network/if-up.d:
+total 0
+
+targetfs/etc/ssl:
+total 12
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:55 certs
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 misc
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:55 private
+
+targetfs/etc/ssl/certs:
+total 0
+
+targetfs/etc/ssl/misc:
+total 16
+-rwxr-xr-x 1 tanya tanya 119 2015-07-26 16:55 c_hash
+-rwxr-xr-x 1 tanya tanya 152 2015-07-26 16:55 c_info
+-rwxr-xr-x 1 tanya tanya 112 2015-07-26 16:55 c_issuer
+-rwxr-xr-x 1 tanya tanya 110 2015-07-26 16:55 c_name
+
+targetfs/etc/ssl/private:
+total 0
+
+targetfs/home:
+total 748
+drwxrwxr-x 2 tanya tanya   4096 2016-01-12 15:18 atp
+-rwxrwxr-x 1 tanya tanya 151040 2016-04-04 22:07 BITManager
+-rwxrwxr-x 1 tanya tanya 154658 2016-01-14 09:05 __BITManager
+-rwxr-xrwx 1 tanya tanya 306585 2016-01-12 15:17 dtuDoor
+drwxrwxr-x 2 tanya tanya   4096 2015-02-11 18:28 ftp
+-rwxrwxrwx 1 tanya tanya    156 2016-01-14 12:24 get_bit_results.sh
+-rwxrwxr-x 1 tanya tanya   1149 2016-04-12 22:00 mount_sata.sh
+-rwxrwxr-x 1 tanya tanya  66833 2015-10-13 16:39 readdiscrete
+-rwxrwxr-x 1 tanya tanya  56171 2015-10-13 15:31 srwatchdog
+drwxr-xr-x 2 tanya tanya   4096 2015-10-29 18:15 tanya
+drwxrwxr-x 2 tanya tanya   4096 2015-12-07 16:53 try
+
+targetfs/home/atp:
+total 960
+-rwxr-x--x 1 tanya tanya 851913 2016-01-12 15:17 atp
+-rwxr-x--x 1 tanya tanya 128531 2016-01-12 15:17 ism
+
+targetfs/home/ftp:
+total 0
+
+targetfs/home/tanya:
+total 124
+-rw-r--r-- 1 tanya tanya 125606 2015-10-29 18:15 switch_main
+
+targetfs/home/try:
+total 776
+-rwxr-xr-x 1 tanya tanya 792513 2015-12-07 16:41 sata_test
+
+targetfs/lib:
+total 3132
+-rwxr-xr-x 1 tanya tanya  136376 2015-09-17 20:49 ld-2.19.so
+lrwxrwxrwx 1 tanya tanya      10 2016-06-01 17:52 ld.so.1 -> ld-2.19.so
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libblkid.so.1 -> libblkid.so.1.1.0
+-rwxr-xr-x 1 tanya tanya  206388 2015-09-17 20:49 libblkid.so.1.1.0
+-rwxr-xr-x 1 tanya tanya 1510316 2015-09-17 20:49 libc-2.19.so
+-rwxr-xr-x 1 tanya tanya   34264 2015-09-17 20:49 libcrypt-2.19.so
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libcrypt.so.1 -> libcrypt-2.19.so
+lrwxrwxrwx 1 tanya tanya      12 2016-06-01 17:52 libc.so.6 -> libc-2.19.so
+-rwxr-xr-x 1 tanya tanya   13840 2015-09-17 20:49 libdl-2.19.so
+lrwxrwxrwx 1 tanya tanya      13 2016-06-01 17:52 libdl.so.2 -> libdl-2.19.so
+-rw-r--r-- 1 tanya tanya     132 2015-07-26 16:44 libgcc_s.so
+-rw-r--r-- 1 tanya tanya  102072 2015-09-17 20:49 libgcc_s.so.1
+-rwxr-xr-x 1 tanya tanya  752420 2015-09-17 20:49 libm-2.19.so
+lrwxrwxrwx 1 tanya tanya      12 2016-06-01 17:52 libm.so.6 -> libm-2.19.so
+-rwxr-xr-x 1 tanya tanya   88360 2015-09-17 20:49 libnsl-2.19.so
+lrwxrwxrwx 1 tanya tanya      14 2016-06-01 17:52 libnsl.so.1 -> libnsl-2.19.so
+-rwxr-xr-x 1 tanya tanya   17780 2015-09-17 20:49 libnss_dns-2.19.so
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libnss_dns.so.2 -> libnss_dns-2.19.so
+-rwxr-xr-x 1 tanya tanya   46708 2015-09-17 20:49 libnss_files-2.19.so
+lrwxrwxrwx 1 tanya tanya      20 2016-06-01 17:52 libnss_files.so.2 -> libnss_files-2.19.so
+-rwxr-xr-x 1 tanya tanya  123434 2015-09-17 20:49 libpthread-2.19.so
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libpthread.so.0 -> libpthread-2.19.so
+-rwxr-xr-x 1 tanya tanya   79904 2015-09-17 20:49 libresolv-2.19.so
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libresolv.so.2 -> libresolv-2.19.so
+-rwxr-xr-x 1 tanya tanya   30632 2015-09-17 20:49 librt-2.19.so
+lrwxrwxrwx 1 tanya tanya      13 2016-06-01 17:52 librt.so.1 -> librt-2.19.so
+-rwxr-xr-x 1 tanya tanya    9532 2015-09-17 20:49 libutil-2.19.so
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libutil.so.1 -> libutil-2.19.so
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libuuid.so.1 -> libuuid.so.1.3.0
+-rwxr-xr-x 1 tanya tanya   14136 2015-09-17 20:49 libuuid.so.1.3.0
+drwxrwxr-x 3 tanya tanya    4096 2016-04-05 00:06 modules
+
+targetfs/lib/modules:
+total 4
+drwxrwxr-x 3 tanya tanya 4096 2016-04-03 13:50 3.14.25
+lrwxrwxrwx 1 tanya tanya    7 2016-06-01 17:52 3.14.25-Elbit-v01.00 -> 3.14.25
+lrwxrwxrwx 1 tanya tanya    7 2016-06-01 17:52 3.14.25-Elbit-v01.01 -> 3.14.25
+lrwxrwxrwx 1 tanya tanya    7 2016-06-01 17:52 3.14.25-Elbit-v01.02 -> 3.14.25
+
+targetfs/lib/modules/3.14.25:
+total 60
+lrwxrwxrwx 1 tanya tanya   62 2016-06-01 17:52 build -> /home/tanya/workspace/DTU/buildroot/output/build/linux-3.14.25
+drwxrwxr-x 5 tanya tanya 4096 2015-09-17 13:10 kernel
+-rw-r--r-- 1 tanya tanya  279 2016-04-03 13:50 modules.alias
+-rw-r--r-- 1 tanya tanya  326 2016-04-03 13:50 modules.alias.bin
+-rw-rw-r-- 1 tanya tanya 3841 2015-09-17 13:10 modules.builtin
+-rw-r--r-- 1 tanya tanya 5424 2016-04-03 13:50 modules.builtin.bin
+-rw-r--r-- 1 tanya tanya  260 2016-04-03 13:50 modules.dep
+-rw-r--r-- 1 tanya tanya  546 2016-04-03 13:50 modules.dep.bin
+-rw-r--r-- 1 tanya tanya   52 2016-04-03 13:50 modules.devname
+-rw-rw-r-- 1 tanya tanya  224 2015-09-17 13:10 modules.order
+-rw-r--r-- 1 tanya tanya   55 2016-04-03 13:50 modules.softdep
+-rw-r--r-- 1 tanya tanya  671 2016-04-03 13:50 modules.symbols
+-rw-r--r-- 1 tanya tanya  712 2016-04-03 13:50 modules.symbols.bin
+lrwxrwxrwx 1 tanya tanya   62 2016-06-01 17:52 source -> /home/tanya/workspace/DTU/buildroot/output/build/linux-3.14.25
+
+targetfs/lib/modules/3.14.25/kernel:
+total 12
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 crypto
+drwxrwxr-x 5 tanya tanya 4096 2015-09-17 13:10 drivers
+drwxrwxr-x 3 tanya tanya 4096 2015-09-17 13:10 net
+
+targetfs/lib/modules/3.14.25/kernel/crypto:
+total 8
+-rw-rw-r-- 1 tanya tanya 4520 2015-09-17 20:49 pcbc.ko
+
+targetfs/lib/modules/3.14.25/kernel/drivers:
+total 12
+drwxrwxr-x 3 tanya tanya 4096 2015-09-17 13:10 net
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 scsi
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 video
+
+targetfs/lib/modules/3.14.25/kernel/drivers/net:
+total 4
+drwxrwxr-x 3 tanya tanya 4096 2015-09-17 13:10 ethernet
+
+targetfs/lib/modules/3.14.25/kernel/drivers/net/ethernet:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 freescale
+
+targetfs/lib/modules/3.14.25/kernel/drivers/net/ethernet/freescale:
+total 12
+-rw-rw-r-- 1 tanya tanya 8248 2015-09-17 20:49 gianfar_ptp.ko
+
+targetfs/lib/modules/3.14.25/kernel/drivers/scsi:
+total 76
+-rw-rw-r-- 1 tanya tanya 41692 2015-09-17 20:49 dpt_i2o.ko
+-rw-rw-r-- 1 tanya tanya 32484 2015-09-17 20:49 mvumi.ko
+
+targetfs/lib/modules/3.14.25/kernel/drivers/video:
+total 4
+-rw-rw-r-- 1 tanya tanya 3936 2015-09-17 20:49 output.ko
+
+targetfs/lib/modules/3.14.25/kernel/net:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 xfrm
+
+targetfs/lib/modules/3.14.25/kernel/net/xfrm:
+total 36
+-rw-rw-r-- 1 tanya tanya  7284 2015-09-17 20:49 xfrm_algo.ko
+-rw-rw-r-- 1 tanya tanya 27392 2015-09-17 20:49 xfrm_user.ko
+
+targetfs/libexec:
+total 8
+-rwxr-xr-x 1 tanya tanya 8154 2015-07-26 16:47 dhcpcd-run-hooks
+
+targetfs/media:
+total 4
+drwxrwxrwx 2 tanya tanya 4096 2015-09-29 12:20 disk
+
+targetfs/media/disk:
+total 0
+
+targetfs/mnt:
+total 0
+
+targetfs/opt:
+total 0
+
+targetfs/proc:
+total 0
+
+targetfs/root:
+total 0
+
+targetfs/sbin:
+total 892
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 blkid -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya  43992 2016-04-03 09:23 bridge
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 ctstat -> lnstat
+lrwxrwxrwx 1 tanya tanya     15 2016-06-01 17:52 depmod -> ../usr/bin/kmod
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 devmem -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya   5048 2015-09-17 20:49 devmem2
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 fdisk -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 freeramdisk -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 fsck -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 fstrim -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya  34768 2016-04-03 09:23 genl
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 getty -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 halt -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 hdparm -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 hwclock -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 ifconfig -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 ifdown -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya  32136 2016-04-03 09:23 ifstat
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 ifup -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 init -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     15 2016-06-01 17:52 insmod -> ../usr/bin/kmod
+-rwxr-xr-x 1 tanya tanya 268288 2016-04-03 09:23 ip
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 ipaddr -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 iplink -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 iproute -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 iprule -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 iptunnel -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 klogd -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya  10228 2016-04-03 09:23 lnstat
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 loadkmap -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 losetup -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     15 2016-06-01 17:52 lsmod -> ../usr/bin/kmod
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 makedevs -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 mdev -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 mkswap -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     15 2016-06-01 17:52 modinfo -> ../usr/bin/kmod
+lrwxrwxrwx 1 tanya tanya     15 2016-06-01 17:52 modprobe -> ../usr/bin/kmod
+lrwxrwxrwx 1 tanya tanya     19 2016-06-01 17:52 mount.lowntfs-3g -> /usr/bin/lowntfs-3g
+-r-x--x--x 1 tanya tanya  91084 2015-07-26 16:52 mount.nfs
+lrwxrwxrwx 1 tanya tanya      9 2016-06-01 17:52 mount.nfs4 -> mount.nfs
+lrwxrwxrwx 1 tanya tanya     16 2016-06-01 17:52 mount.ntfs-3g -> /usr/bin/ntfs-3g
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 nameif -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya  22116 2016-04-03 09:23 nstat
+-rwxr-xr-x 1 tanya tanya   2613 2015-07-26 16:52 osd_login
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 pivot_root -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 poweroff -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 reboot -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     15 2016-06-01 17:52 rmmod -> ../usr/bin/kmod
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 route -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya    173 2016-04-03 09:23 routef
+-rwxr-xr-x 1 tanya tanya   1262 2016-04-03 09:23 routel
+-rwxr-xr-x 1 tanya tanya  32504 2016-04-03 09:23 rtacct
+-rwxr-xr-x 1 tanya tanya  30640 2016-04-03 09:23 rtmon
+-rwxr-xr-x 1 tanya tanya     37 2016-04-03 09:23 rtpr
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 rtstat -> lnstat
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 runlevel -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 setconsole -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya  68772 2016-04-03 09:23 ss
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 start-stop-daemon -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 sulogin -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 swapoff -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 swapon -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 switch_root -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 sysctl -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 syslogd -> ../bin/busybox
+-rwxr-xr-x 1 tanya tanya 236396 2016-04-03 09:23 tc
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 udhcpc -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya      9 2016-06-01 17:52 umount.nfs -> mount.nfs
+lrwxrwxrwx 1 tanya tanya      9 2016-06-01 17:52 umount.nfs4 -> mount.nfs
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 vconfig -> ../bin/busybox
+lrwxrwxrwx 1 tanya tanya     14 2016-06-01 17:52 watchdog -> ../bin/busybox
+
+targetfs/sys:
+total 0
+
+targetfs/tmp:
+total 8
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 16:47 dbus
+drwxrwxr-x 2 tanya tanya 4096 2015-09-17 20:49 ldconfig
+-rw-r--r-- 1 tanya tanya    0 2015-09-17 21:27 utmp
+
+targetfs/tmp/dbus:
+total 0
+
+targetfs/tmp/ldconfig:
+total 4
+-rw------- 1 tanya tanya 33 2015-09-17 20:49 aux-cache
+
+targetfs/usr:
+total 20
+drwxr-xr-x  2 tanya tanya 4096 2016-04-03 10:20 bin
+drwxr-xr-x  4 tanya tanya 4096 2016-04-03 10:21 lib
+lrwxrwxrwx  1 tanya tanya    3 2016-06-01 17:52 lib32 -> lib
+drwxrwxr-x  2 tanya tanya 4096 2015-09-17 20:49 libexec
+drwxrwxr-x  2 tanya tanya 4096 2016-04-03 10:21 sbin
+drwxr-xr-x 10 tanya tanya 4096 2015-09-16 12:54 share
+
+targetfs/usr/bin:
+total 2288
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 [ -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 [[ -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 ar -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  45436 2015-09-17 20:49 atftp
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 awk -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 basename -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 bunzip2 -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 bzcat -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya   7512 2015-09-17 20:49 chattr
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 chrt -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 chvt -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 cksum -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 clear -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 cmp -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  11876 2015-09-17 20:49 cramfsck
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 crontab -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 cut -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     16 2016-06-01 17:52 dbclient -> ../sbin/dropbear
+-rwxr-xr-x 1 tanya tanya   6988 2015-09-17 20:49 dbus-cleanup-sockets
+-rwxr-xr-x 1 tanya tanya 321208 2015-09-17 20:49 dbus-daemon
+-rwxr-xr-x 1 tanya tanya  11708 2015-09-17 20:49 dbus-launch
+-rwxr-xr-x 1 tanya tanya  10836 2015-09-17 20:49 dbus-monitor
+-rwxr-xr-x 1 tanya tanya   7812 2015-09-17 20:49 dbus-run-session
+-rwxr-xr-x 1 tanya tanya  13876 2015-09-17 20:49 dbus-send
+-rwxr-xr-x 1 tanya tanya   5612 2015-09-17 20:49 dbus-uuidgen
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 dc -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 deallocvt -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 diff -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 dirname -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 dos2unix -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     16 2016-06-01 17:52 dropbearconvert -> ../sbin/dropbear
+lrwxrwxrwx 1 tanya tanya     16 2016-06-01 17:52 dropbearkey -> ../sbin/dropbear
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 du -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 eject -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 env -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 expr -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 find -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 fold -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 free -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  94652 2015-09-17 20:49 ftop
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 fuser -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 263748 2015-09-17 20:49 gdbserver
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 head -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 hexdump -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 hostid -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 111388 2015-09-17 20:49 htop
+-rwxr-xr-x 1 tanya tanya  11396 2015-09-17 20:49 i2cdetect
+-rwxr-xr-x 1 tanya tanya  13788 2015-09-17 20:49 i2cdump
+-rwxr-xr-x 1 tanya tanya  11236 2015-09-17 20:49 i2cget
+-rwxr-xr-x 1 tanya tanya  13788 2015-09-17 20:49 i2cset
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 id -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 install -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 ipcrm -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 ipcs -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     23 2016-06-01 17:52 iptables-xml -> /usr/sbin/xtables-multi
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 killall -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 101040 2015-09-17 20:49 kmod
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 last -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 less -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 logger -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 logname -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  78612 2015-09-17 20:49 lowntfs-3g
+-rwxr-xr-x 1 tanya tanya   6560 2015-09-17 20:49 lsattr
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 lsof -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  56292 2015-09-17 20:49 lspci
+-rwxr-xr-x 1 tanya tanya  80168 2015-09-17 20:49 lsusb
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 lzcat -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 lzma -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 md5sum -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 mesg -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 microcom -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  15708 2015-09-17 20:49 mkcramfs
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 mkfifo -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  59144 2015-09-17 20:49 nano
+-rwxr-xr-x 1 tanya tanya   6952 2015-09-17 20:49 nfs-ls
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 nohup -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 nslookup -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 100760 2015-09-17 20:49 ntfs-3g
+-rwxr-xr-x 1 tanya tanya   5620 2015-09-17 20:49 ntfs-3g.probe
+-rwxr-xr-x 1 tanya tanya  42836 2015-09-17 20:49 ntfs-3g.secaudit
+-rwxr-xr-x 1 tanya tanya  11104 2015-09-17 20:49 ntfs-3g.usermap
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 od -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 openvt -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 passwd -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 patch -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 printf -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 readlink -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 realpath -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 renice -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 reset -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 resize -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  31676 2015-09-17 20:49 rpcbind
+-rwxr-xr-x 1 tanya tanya  89725 2015-07-26 16:45 rpcgen
+-rwxr-xr-x 1 tanya tanya  19580 2015-09-17 20:49 rpcinfo
+lrwxrwxrwx 1 tanya tanya     16 2016-06-01 17:52 scp -> ../sbin/dropbear
+-rwsr-xr-x 1 tanya tanya 328120 2015-09-17 20:49 screen
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 seq -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 setkeycodes -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  14748 2015-09-17 20:49 setpci
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 setsid -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 sha1sum -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 sha256sum -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 sha3sum -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 sha512sum -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 sort -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     16 2016-06-01 17:52 ssh -> ../sbin/dropbear
+-rwxr-xr-x 1 tanya tanya 239308 2015-09-17 20:49 strace
+-rwxr-xr-x 1 tanya tanya    944 2015-07-26 16:56 strace-log-merge
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 strings -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 tail -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 tcpsvd -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 tee -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 telnet -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 test -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 tftp -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 time -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 top -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 tr -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 traceroute -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 tty -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 uniq -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 unix2dos -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 unlzma -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 unxz -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 unzip -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya   1731 2015-07-26 16:55 update-pciids
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 uptime -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  17920 2015-09-17 20:49 usbhid-dump
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 uudecode -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 uuencode -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 vlock -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 wc -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 wget -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 which -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 who -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 whoami -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 xargs -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 xz -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 xzcat -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 yes -> ../../bin/busybox
+
+targetfs/usr/lib:
+total 5620
+-rw-r--r-- 1 tanya tanya    9262 2015-07-26 16:45 apr.exp
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libapr-1.so -> libapr-1.so.0.5.1
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libapr-1.so.0 -> libapr-1.so.0.5.1
+-rwxr-xr-x 1 tanya tanya  151628 2015-09-17 20:49 libapr-1.so.0.5.1
+lrwxrwxrwx 1 tanya tanya      27 2016-06-01 17:52 libblkid.so -> ../../lib/libblkid.so.1.1.0
+lrwxrwxrwx 1 tanya tanya      11 2016-06-01 17:52 libcap.so -> libcap.so.2
+lrwxrwxrwx 1 tanya tanya      14 2016-06-01 17:52 libcap.so.2 -> libcap.so.2.24
+-rwxr-xr-x 1 tanya tanya   11484 2015-09-17 20:49 libcap.so.2.24
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libcom_err.so -> libcom_err.so.2
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libcom_err.so.2 -> libcom_err.so.2.1
+-rwxr-xr-x 1 tanya tanya    9952 2015-09-17 20:49 libcom_err.so.2.1
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libcrypto.so -> libcrypto.so.1.0.0
+-rwxrwxr-x 1 tanya tanya 1419480 2015-09-17 20:49 libcrypto.so.1.0.0
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libdbus-1.so -> libdbus-1.so.3.8.8
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libdbus-1.so.3 -> libdbus-1.so.3.8.8
+-rwxr-xr-x 1 tanya tanya  230592 2015-09-17 20:49 libdbus-1.so.3.8.8
+lrwxrwxrwx 1 tanya tanya      11 2016-06-01 17:52 libe2p.so -> libe2p.so.2
+lrwxrwxrwx 1 tanya tanya      13 2016-06-01 17:52 libe2p.so.2 -> libe2p.so.2.3
+-rwxr-xr-x 1 tanya tanya   23320 2015-09-17 20:49 libe2p.so.2.3
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libexpat.so -> libexpat.so.1.6.0
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libexpat.so.1 -> libexpat.so.1.6.0
+-rwxr-xr-x 1 tanya tanya  138796 2015-09-17 20:49 libexpat.so.1.6.0
+lrwxrwxrwx 1 tanya tanya      14 2016-06-01 17:52 libext2fs.so -> libext2fs.so.2
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libext2fs.so.2 -> libext2fs.so.2.4
+-rwxr-xr-x 1 tanya tanya  233164 2015-09-17 20:49 libext2fs.so.2.4
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libhistory.so -> libhistory.so.6
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libhistory.so.6 -> libhistory.so.6.3
+-r-xr-xr-x 1 tanya tanya   33650 2015-07-26 16:55 libhistory.so.6.3
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libip4tc.so -> libip4tc.so.0.1.0
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libip4tc.so.0 -> libip4tc.so.0.1.0
+-rwxr-xr-x 1 tanya tanya   20588 2016-04-03 09:23 libip4tc.so.0.1.0
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libip6tc.so -> libip6tc.so.0.1.0
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libip6tc.so.0 -> libip6tc.so.0.1.0
+-rwxr-xr-x 1 tanya tanya   21080 2016-04-03 09:23 libip6tc.so.0.1.0
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libiptc.so -> libiptc.so.0.0.0
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libiptc.so.0 -> libiptc.so.0.0.0
+-rwxr-xr-x 1 tanya tanya    3196 2016-04-03 09:23 libiptc.so.0.0.0
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libkmod.so -> libkmod.so.2.2.8
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libkmod.so.2 -> libkmod.so.2.2.8
+-rwxr-xr-x 1 tanya tanya   64112 2015-09-17 20:49 libkmod.so.2.2.8
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 liblzo2.so -> liblzo2.so.2.0.0
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 liblzo2.so.2 -> liblzo2.so.2.0.0
+-rwxr-xr-x 1 tanya tanya  106364 2015-09-17 20:49 liblzo2.so.2.0.0
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libncurses.so -> libncurses.so.5
+lrwxrwxrwx 1 tanya tanya      17 2016-06-01 17:52 libncurses.so.5 -> libncurses.so.5.9
+-rwxrwxr-x 1 tanya tanya  199984 2015-09-17 20:49 libncurses.so.5.9
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libnfs.so -> libnfs.so.4.2.0
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libnfs.so.4 -> libnfs.so.4.2.0
+-rwxr-xr-x 1 tanya tanya  164244 2015-09-17 20:49 libnfs.so.4.2.0
+lrwxrwxrwx 1 tanya tanya      20 2016-06-01 17:52 libntfs-3g.so -> libntfs-3g.so.85.0.0
+lrwxrwxrwx 1 tanya tanya      20 2016-06-01 17:52 libntfs-3g.so.85 -> libntfs-3g.so.85.0.0
+-rwxr-xr-x 1 tanya tanya  258952 2015-09-17 20:49 libntfs-3g.so.85.0.0
+lrwxrwxrwx 1 tanya tanya      28 2016-06-01 17:52 libparted-fs-resize.so -> libparted-fs-resize.so.0.0.0
+lrwxrwxrwx 1 tanya tanya      28 2016-06-01 17:52 libparted-fs-resize.so.0 -> libparted-fs-resize.so.0.0.0
+-rwxr-xr-x 1 tanya tanya   73820 2015-09-17 20:49 libparted-fs-resize.so.0.0.0
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libparted.so -> libparted.so.2.0.0
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libparted.so.2 -> libparted.so.2.0.0
+-rwxr-xr-x 1 tanya tanya  266556 2015-09-17 20:49 libparted.so.2.0.0
+lrwxrwxrwx 1 tanya tanya      12 2016-06-01 17:52 libpcap.so -> libpcap.so.1
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libpcap.so.1 -> libpcap.so.1.6.2
+-rwxr-xr-x 1 tanya tanya  211608 2015-10-18 15:43 libpcap.so.1.6.2
+lrwxrwxrwx 1 tanya tanya      11 2016-06-01 17:52 libpci.so -> libpci.so.3
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libpci.so.3 -> libpci.so.3.3.0
+-rw-r--r-- 1 tanya tanya   31492 2015-09-17 20:49 libpci.so.3.3.0
+lrwxrwxrwx 1 tanya tanya      16 2016-06-01 17:52 libreadline.so -> libreadline.so.6
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libreadline.so.6 -> libreadline.so.6.3
+-r-xr-xr-x 1 tanya tanya  253048 2015-07-26 16:55 libreadline.so.6.3
+lrwxrwxrwx 1 tanya tanya      15 2016-06-01 17:52 libssl.so -> libssl.so.1.0.0
+-rwxrwxr-x 1 tanya tanya  312208 2015-09-17 20:49 libssl.so.1.0.0
+lrwxrwxrwx 1 tanya tanya      10 2016-06-01 17:52 libss.so -> libss.so.2
+lrwxrwxrwx 1 tanya tanya      12 2016-06-01 17:52 libss.so.2 -> libss.so.2.0
+-rwxr-xr-x 1 tanya tanya   18624 2015-09-17 20:49 libss.so.2.0
+lrwxrwxrwx 1 tanya tanya      19 2016-06-01 17:52 libstdc++.so -> libstdc++.so.6.0.19
+lrwxrwxrwx 1 tanya tanya      19 2016-06-01 17:52 libstdc++.so.6 -> libstdc++.so.6.0.19
+-rwxr-xr-x 1 tanya tanya 1118256 2015-09-17 20:49 libstdc++.so.6.0.19
+-rw-r--r-- 1 tanya tanya    2414 2015-07-26 16:44 libstdc++.so.6.0.19-gdb.py
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libtirpc.so -> libtirpc.so.1.0.10
+lrwxrwxrwx 1 tanya tanya      18 2016-06-01 17:52 libtirpc.so.1 -> libtirpc.so.1.0.10
+-rwxr-xr-x 1 tanya tanya  102724 2015-09-17 20:49 libtirpc.so.1.0.10
+lrwxrwxrwx 1 tanya tanya      19 2016-06-01 17:52 libusb-1.0.so -> libusb-1.0.so.0.1.0
+lrwxrwxrwx 1 tanya tanya      19 2016-06-01 17:52 libusb-1.0.so.0 -> libusb-1.0.so.0.1.0
+-rwxr-xr-x 1 tanya tanya   77228 2015-09-17 20:49 libusb-1.0.so.0.1.0
+lrwxrwxrwx 1 tanya tanya      26 2016-06-01 17:52 libuuid.so -> ../../lib/libuuid.so.1.3.0
+lrwxrwxrwx 1 tanya tanya      20 2016-06-01 17:52 libxtables.so -> libxtables.so.10.0.0
+lrwxrwxrwx 1 tanya tanya      20 2016-06-01 17:52 libxtables.so.10 -> libxtables.so.10.0.0
+-rwxr-xr-x 1 tanya tanya   39444 2016-04-03 09:23 libxtables.so.10.0.0
+lrwxrwxrwx 1 tanya tanya      13 2016-06-01 17:52 libz.so -> libz.so.1.2.8
+lrwxrwxrwx 1 tanya tanya      13 2016-06-01 17:52 libz.so.1 -> libz.so.1.2.8
+-rwxr-xr-x 1 tanya tanya   72852 2015-09-17 20:49 libz.so.1.2.8
+drwxr-xr-x 2 tanya tanya    4096 2016-04-03 10:21 tc
+lrwxrwxrwx 1 tanya tanya      19 2016-06-01 17:52 terminfo -> /usr/share/terminfo
+drwxr-xr-x 2 tanya tanya    4096 2016-04-03 10:21 xtables
+
+targetfs/usr/lib/tc:
+total 104
+-rw-r--r-- 1 tanya tanya 23077 2016-04-03 09:23 experimental.dist
+lrwxrwxrwx 1 tanya tanya     7 2016-06-01 17:52 m_ipt.so -> m_xt.so
+-rwxr-xr-x 1 tanya tanya  8140 2016-04-03 09:23 m_xt.so
+-rw-r--r-- 1 tanya tanya 23573 2016-04-03 09:23 normal.dist
+-rw-r--r-- 1 tanya tanya 23729 2016-04-03 09:23 pareto.dist
+-rw-r--r-- 1 tanya tanya 23447 2016-04-03 09:23 paretonormal.dist
+
+targetfs/usr/lib/xtables:
+total 972
+-rwxr-xr-x 1 tanya tanya  5916 2016-04-03 09:23 libip6t_ah.so
+-rwxr-xr-x 1 tanya tanya  7140 2016-04-03 09:23 libip6t_DNAT.so
+-rwxr-xr-x 1 tanya tanya  5056 2016-04-03 09:23 libip6t_DNPT.so
+-rwxr-xr-x 1 tanya tanya  6492 2016-04-03 09:23 libip6t_dst.so
+-rwxr-xr-x 1 tanya tanya  3444 2016-04-03 09:23 libip6t_eui64.so
+-rwxr-xr-x 1 tanya tanya  6288 2016-04-03 09:23 libip6t_frag.so
+-rwxr-xr-x 1 tanya tanya  6532 2016-04-03 09:23 libip6t_hbh.so
+-rwxr-xr-x 1 tanya tanya  5948 2016-04-03 09:23 libip6t_hl.so
+-rwxr-xr-x 1 tanya tanya  5900 2016-04-03 09:23 libip6t_HL.so
+-rwxr-xr-x 1 tanya tanya  7296 2016-04-03 09:23 libip6t_icmp6.so
+-rwxr-xr-x 1 tanya tanya  6996 2016-04-03 09:23 libip6t_ipv6header.so
+-rwxr-xr-x 1 tanya tanya  6748 2016-04-03 09:23 libip6t_LOG.so
+-rwxr-xr-x 1 tanya tanya  5860 2016-04-03 09:23 libip6t_MASQUERADE.so
+-rwxr-xr-x 1 tanya tanya  6688 2016-04-03 09:23 libip6t_mh.so
+-rwxr-xr-x 1 tanya tanya  4840 2016-04-03 09:23 libip6t_NETMAP.so
+-rwxr-xr-x 1 tanya tanya  5864 2016-04-03 09:23 libip6t_REDIRECT.so
+-rwxr-xr-x 1 tanya tanya  5956 2016-04-03 09:23 libip6t_REJECT.so
+-rwxr-xr-x 1 tanya tanya  7680 2016-04-03 09:23 libip6t_rt.so
+-rwxr-xr-x 1 tanya tanya  7116 2016-04-03 09:23 libip6t_SNAT.so
+-rwxr-xr-x 1 tanya tanya  5056 2016-04-03 09:23 libip6t_SNPT.so
+-rwxr-xr-x 1 tanya tanya  5072 2016-04-03 09:23 libipt_ah.so
+-rwxr-xr-x 1 tanya tanya  6500 2016-04-03 09:23 libipt_CLUSTERIP.so
+-rwxr-xr-x 1 tanya tanya  7184 2016-04-03 09:23 libipt_DNAT.so
+-rwxr-xr-x 1 tanya tanya  5944 2016-04-03 09:23 libipt_ECN.so
+-rwxr-xr-x 1 tanya tanya  7852 2016-04-03 09:23 libipt_icmp.so
+-rwxr-xr-x 1 tanya tanya  6752 2016-04-03 09:23 libipt_LOG.so
+-rwxr-xr-x 1 tanya tanya  5860 2016-04-03 09:23 libipt_MASQUERADE.so
+-rwxr-xr-x 1 tanya tanya  3452 2016-04-03 09:23 libipt_MIRROR.so
+-rwxr-xr-x 1 tanya tanya  4752 2016-04-03 09:23 libipt_NETMAP.so
+-rwxr-xr-x 1 tanya tanya  5876 2016-04-03 09:23 libipt_realm.so
+-rwxr-xr-x 1 tanya tanya  5864 2016-04-03 09:23 libipt_REDIRECT.so
+-rwxr-xr-x 1 tanya tanya  6624 2016-04-03 09:23 libipt_REJECT.so
+-rwxr-xr-x 1 tanya tanya  6284 2016-04-03 09:23 libipt_SAME.so
+-rwxr-xr-x 1 tanya tanya  7160 2016-04-03 09:23 libipt_SNAT.so
+-rwxr-xr-x 1 tanya tanya  5944 2016-04-03 09:23 libipt_ttl.so
+-rwxr-xr-x 1 tanya tanya  5900 2016-04-03 09:23 libipt_TTL.so
+-rwxr-xr-x 1 tanya tanya  5944 2016-04-03 09:23 libipt_ULOG.so
+-rwxr-xr-x 1 tanya tanya  3452 2016-04-03 09:23 libipt_unclean.so
+-rwxr-xr-x 1 tanya tanya  8096 2016-04-03 09:23 libxt_addrtype.so
+-rwxr-xr-x 1 tanya tanya  5072 2016-04-03 09:23 libxt_AUDIT.so
+-rwxr-xr-x 1 tanya tanya  6028 2016-04-03 09:23 libxt_bpf.so
+-rwxr-xr-x 1 tanya tanya  4596 2016-04-03 09:23 libxt_CHECKSUM.so
+-rwxr-xr-x 1 tanya tanya  4968 2016-04-03 09:23 libxt_CLASSIFY.so
+-rwxr-xr-x 1 tanya tanya  5968 2016-04-03 09:23 libxt_cluster.so
+-rwxr-xr-x 1 tanya tanya  4236 2016-04-03 09:23 libxt_comment.so
+-rwxr-xr-x 1 tanya tanya  6484 2016-04-03 09:23 libxt_connbytes.so
+-rwxr-xr-x 1 tanya tanya  7092 2016-04-03 09:23 libxt_connlimit.so
+-rwxr-xr-x 1 tanya tanya  5896 2016-04-03 09:23 libxt_connmark.so
+-rwxr-xr-x 1 tanya tanya  8728 2016-04-03 09:23 libxt_CONNMARK.so
+-rwxr-xr-x 1 tanya tanya  5848 2016-04-03 09:23 libxt_CONNSECMARK.so
+-rwxr-xr-x 1 tanya tanya 20812 2016-04-03 09:23 libxt_conntrack.so
+-rwxr-xr-x 1 tanya tanya  4628 2016-04-03 09:23 libxt_cpu.so
+-rwxr-xr-x 1 tanya tanya 11100 2016-04-03 09:23 libxt_CT.so
+-rwxr-xr-x 1 tanya tanya  7524 2016-04-03 09:23 libxt_dccp.so
+-rwxr-xr-x 1 tanya tanya  6532 2016-04-03 09:23 libxt_devgroup.so
+-rwxr-xr-x 1 tanya tanya  6068 2016-04-03 09:23 libxt_dscp.so
+-rwxr-xr-x 1 tanya tanya  6056 2016-04-03 09:23 libxt_DSCP.so
+-rwxr-xr-x 1 tanya tanya  5904 2016-04-03 09:23 libxt_ecn.so
+-rwxr-xr-x 1 tanya tanya  4972 2016-04-03 09:23 libxt_esp.so
+-rwxr-xr-x 1 tanya tanya 15308 2016-04-03 09:23 libxt_hashlimit.so
+-rwxr-xr-x 1 tanya tanya  4724 2016-04-03 09:23 libxt_helper.so
+-rwxr-xr-x 1 tanya tanya 10632 2016-04-03 09:23 libxt_HMARK.so
+-rwxr-xr-x 1 tanya tanya  4384 2016-04-03 09:23 libxt_IDLETIMER.so
+-rwxr-xr-x 1 tanya tanya  8272 2016-04-03 09:23 libxt_iprange.so
+-rwxr-xr-x 1 tanya tanya  8380 2016-04-03 09:23 libxt_ipvs.so
+-rwxr-xr-x 1 tanya tanya  5944 2016-04-03 09:23 libxt_LED.so
+-rwxr-xr-x 1 tanya tanya  4892 2016-04-03 09:23 libxt_length.so
+-rwxr-xr-x 1 tanya tanya  6268 2016-04-03 09:23 libxt_limit.so
+-rwxr-xr-x 1 tanya tanya  4752 2016-04-03 09:23 libxt_mac.so
+-rwxr-xr-x 1 tanya tanya  5896 2016-04-03 09:23 libxt_mark.so
+-rwxr-xr-x 1 tanya tanya  7536 2016-04-03 09:23 libxt_MARK.so
+-rwxr-xr-x 1 tanya tanya 10428 2016-04-03 09:23 libxt_multiport.so
+-rwxr-xr-x 1 tanya tanya  4892 2016-04-03 09:23 libxt_nfacct.so
+-rwxr-xr-x 1 tanya tanya  5932 2016-04-03 09:23 libxt_NFLOG.so
+-rwxr-xr-x 1 tanya tanya  7168 2016-04-03 09:23 libxt_NFQUEUE.so
+-rwxr-xr-x 1 tanya tanya 11100 2016-04-03 09:23 libxt_NOTRACK.so
+-rwxr-xr-x 1 tanya tanya  5884 2016-04-03 09:23 libxt_osf.so
+-rwxr-xr-x 1 tanya tanya 10680 2016-04-03 09:23 libxt_owner.so
+-rwxr-xr-x 1 tanya tanya  6272 2016-04-03 09:23 libxt_physdev.so
+-rwxr-xr-x 1 tanya tanya  5896 2016-04-03 09:23 libxt_pkttype.so
+-rwxr-xr-x 1 tanya tanya 10504 2016-04-03 09:23 libxt_policy.so
+-rwxr-xr-x 1 tanya tanya  4592 2016-04-03 09:23 libxt_quota.so
+-rwxr-xr-x 1 tanya tanya 16932 2016-04-03 09:23 libxt_rateest.so
+-rwxr-xr-x 1 tanya tanya 14228 2016-04-03 09:23 libxt_RATEEST.so
+-rwxr-xr-x 1 tanya tanya 11104 2016-04-03 09:23 libxt_recent.so
+-rwxr-xr-x 1 tanya tanya  5928 2016-04-03 09:23 libxt_rpfilter.so
+-rwxr-xr-x 1 tanya tanya 10520 2016-04-03 09:23 libxt_sctp.so
+-rwxr-xr-x 1 tanya tanya  4804 2016-04-03 09:23 libxt_SECMARK.so
+-rwxr-xr-x 1 tanya tanya 14696 2016-04-03 09:23 libxt_set.so
+-rwxr-xr-x 1 tanya tanya 11196 2016-04-03 09:23 libxt_SET.so
+-rwxr-xr-x 1 tanya tanya  6104 2016-04-03 09:23 libxt_socket.so
+-rwxr-xr-x 1 tanya tanya  3680 2016-04-03 09:23 libxt_standard.so
+-rwxr-xr-x 1 tanya tanya 20812 2016-04-03 09:23 libxt_state.so
+-rwxr-xr-x 1 tanya tanya  8052 2016-04-03 09:23 libxt_statistic.so
+-rwxr-xr-x 1 tanya tanya  8204 2016-04-03 09:23 libxt_string.so
+-rwxr-xr-x 1 tanya tanya  5988 2016-04-03 09:23 libxt_SYNPROXY.so
+-rwxr-xr-x 1 tanya tanya  4856 2016-04-03 09:23 libxt_tcpmss.so
+-rwxr-xr-x 1 tanya tanya  6064 2016-04-03 09:23 libxt_TCPMSS.so
+-rwxr-xr-x 1 tanya tanya  6224 2016-04-03 09:23 libxt_TCPOPTSTRIP.so
+-rwxr-xr-x 1 tanya tanya  8840 2016-04-03 09:23 libxt_tcp.so
+-rwxr-xr-x 1 tanya tanya  5936 2016-04-03 09:23 libxt_TEE.so
+-rwxr-xr-x 1 tanya tanya 10668 2016-04-03 09:23 libxt_time.so
+-rwxr-xr-x 1 tanya tanya  6224 2016-04-03 09:23 libxt_tos.so
+-rwxr-xr-x 1 tanya tanya  7296 2016-04-03 09:23 libxt_TOS.so
+-rwxr-xr-x 1 tanya tanya  6236 2016-04-03 09:23 libxt_TPROXY.so
+-rwxr-xr-x 1 tanya tanya  3448 2016-04-03 09:23 libxt_TRACE.so
+-rwxr-xr-x 1 tanya tanya  7296 2016-04-03 09:23 libxt_u32.so
+-rwxr-xr-x 1 tanya tanya  5964 2016-04-03 09:23 libxt_udp.so
+
+targetfs/usr/libexec:
+total 220
+-rwsr-xr-x 1 tanya tanya 223328 2015-09-17 20:49 dbus-daemon-launch-helper
+
+targetfs/usr/sbin:
+total 2872
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 addgroup -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 adduser -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 arping -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  54584 2015-09-17 20:49 atftpd
+-rwxr-xr-x 1 tanya tanya  23244 2015-09-17 20:49 badblocks
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 chroot -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 crond -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 delgroup -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 deluser -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 182836 2015-09-17 20:49 dhcpcd
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 dnsd -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 230028 2015-10-21 13:14 dropbear
+-rwxr-xr-x 1 tanya tanya  14808 2015-09-17 20:49 dumpe2fs
+-rwxr-xr-x 1 tanya tanya  13900 2015-09-17 20:49 e2freefrag
+-rwxr-xr-x 1 tanya tanya 216628 2015-09-17 20:49 e2fsck
+-rwxr-xr-x 1 tanya tanya  67352 2015-09-17 20:49 e2label
+-rwxr-xr-x 1 tanya tanya   7380 2015-09-17 20:49 e2undo
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 ether-wake -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya 228380 2015-09-17 20:49 ethtool
+-rwxr-xr-x 1 tanya tanya  39492 2015-09-17 20:49 exportfs
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 fbset -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 fdformat -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  13136 2015-09-17 20:49 filefrag
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 findfs -> e2label
+-rwxr-xr-x 1 tanya tanya   8804 2015-09-17 20:49 flashcp
+-rwxr-xr-x 1 tanya tanya  26072 2015-09-17 20:49 flash_erase
+-rwxr-xr-x 1 tanya tanya   4664 2015-09-17 20:49 flash_lock
+-rwxr-xr-x 1 tanya tanya   4668 2015-09-17 20:49 flash_unlock
+-rwxr-xr-x 1 tanya tanya  17988 2015-09-17 20:49 fsck
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 fsck.ext2 -> e2fsck
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 fsck.ext3 -> e2fsck
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 fsck.ext4 -> e2fsck
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 fsck.ext4dev -> e2fsck
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 ftpd -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  28508 2015-09-17 20:49 fw_printenv
+lrwxrwxrwx 1 tanya tanya     11 2016-06-01 17:52 fw_setenv -> fw_printenv
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 inetd -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 in.tftpd -> atftpd
+lrwxrwxrwx 1 tanya tanya     13 2016-06-01 17:52 ip6tables -> xtables-multi
+lrwxrwxrwx 1 tanya tanya     13 2016-06-01 17:52 ip6tables-restore -> xtables-multi
+lrwxrwxrwx 1 tanya tanya     13 2016-06-01 17:52 ip6tables-save -> xtables-multi
+lrwxrwxrwx 1 tanya tanya     13 2016-06-01 17:52 iptables -> xtables-multi
+lrwxrwxrwx 1 tanya tanya     13 2016-06-01 17:52 iptables-restore -> xtables-multi
+lrwxrwxrwx 1 tanya tanya     13 2016-06-01 17:52 iptables-save -> xtables-multi
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 killall5 -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 loadfont -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya   6744 2015-09-17 20:49 logsave
+-rwxr-xr-x 1 tanya tanya  28696 2015-09-17 20:49 mii-diag
+-rwxr-xr-x 1 tanya tanya  95356 2015-09-17 20:49 mke2fs
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 mkfs.ext4 -> mke2fs
+lrwxrwxrwx 1 tanya tanya      6 2016-06-01 17:52 mkfs.ext4dev -> mke2fs
+-rwxr-xr-x 1 tanya tanya   4636 2015-09-17 20:49 mklost+found
+-rwxr-xr-x 1 tanya tanya  24199 2015-07-26 16:52 mountstats
+-rwxr-xr-x 1 tanya tanya   8052 2015-09-17 20:49 mtd_debug
+-rwxr-xr-x 1 tanya tanya  28988 2015-09-17 20:49 mtdinfo
+-rwxr-xr-x 1 tanya tanya  28152 2015-09-17 20:49 nanddump
+-rwxr-xr-x 1 tanya tanya   7496 2015-09-17 20:49 nandtest
+-rwxr-xr-x 1 tanya tanya  30168 2015-09-17 20:49 nandwrite
+-rwxr-xr-x 1 tanya tanya  19428 2015-09-17 20:49 nfsstat
+-rwxr-xr-x 1 tanya tanya  64028 2015-09-17 20:49 parted
+-rwxr-xr-x 1 tanya tanya   7292 2015-09-17 20:49 partprobe
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 rdate -> ../../bin/busybox
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 readprofile -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  12685 2015-07-26 16:52 rpcdebug
+-rwxr-xr-x 1 tanya tanya 230528 2015-09-17 20:49 rpc.mountd
+-rwxr-xr-x 1 tanya tanya  14112 2015-09-17 20:49 rpc.nfsd
+-rwxr-xr-x 1 tanya tanya  55236 2015-09-17 20:49 rpc.statd
+lrwxrwxrwx 1 tanya tanya     17 2016-06-01 17:52 setlogcons -> ../../bin/busybox
+-rwxr-xr-x 1 tanya tanya  12592 2015-09-17 20:49 showmount
+-rwxr-xr-x 1 tanya tanya  35668 2015-09-17 20:49 sm-notify
+-rwxr-xr-x 1 tanya tanya    298 2015-07-26 16:52 start-statd
+-rwxr-xr-x 1 tanya tanya 608100 2015-10-18 15:42 tcpdump
+lrwxrwxrwx 1 tanya tanya      7 2016-06-01 17:52 tune2fs -> e2label
+-rwxr-xr-x 1 tanya tanya  21260 2015-09-17 20:49 ubiattach
+-rwxr-xr-x 1 tanya tanya  12556 2015-09-17 20:49 ubiblock
+-rwxr-xr-x 1 tanya tanya   6400 2015-09-17 20:49 ubicrc32
+-rwxr-xr-x 1 tanya tanya  13976 2015-09-17 20:49 ubidetach
+-rwxr-xr-x 1 tanya tanya  55124 2015-09-17 20:49 ubiformat
+-rwxr-xr-x 1 tanya tanya  23176 2015-09-17 20:49 ubimkvol
+-rwxr-xr-x 1 tanya tanya  25344 2015-09-17 20:49 ubinfo
+-rwxr-xr-x 1 tanya tanya  34384 2015-09-17 20:49 ubinize
+-rwxr-xr-x 1 tanya tanya  14928 2015-09-17 20:49 ubirename
+-rwxr-xr-x 1 tanya tanya  16220 2015-09-17 20:49 ubirmvol
+-rwxr-xr-x 1 tanya tanya  17984 2015-09-17 20:49 ubirsvol
+-rwxr-xr-x 1 tanya tanya  16812 2015-09-17 20:49 ubiupdatevol
+-rwxr-xr-x 1 tanya tanya  64488 2016-04-03 09:23 xtables-multi
+
+targetfs/usr/share:
+total 748
+drwxrwxr-x  2 tanya tanya   4096 2015-07-26 16:50 applications
+drwxrwxr-x  3 tanya tanya   4096 2015-07-26 16:50 bash-completion
+drwxr-xr-x  4 tanya tanya   4096 2015-07-26 16:47 dbus-1
+drwxrwxr-x 35 tanya tanya   4096 2015-07-30 18:57 locale
+-rw-r--r--  1 tanya tanya 226235 2015-07-26 16:55 pci.ids.gz
+drwxrwxr-x  2 tanya tanya   4096 2015-07-26 16:50 pixmaps
+drwxrwxr-x  3 tanya tanya   4096 2015-07-26 16:55 screen
+drwxrwxr-x  7 tanya tanya   4096 2015-07-26 16:48 terminfo
+drwxr-xr-x  2 tanya tanya   4096 2015-09-17 20:49 udhcpc
+-rw-r--r--  1 tanya tanya 502948 2015-07-26 16:56 usb.ids
+
+targetfs/usr/share/applications:
+total 4
+-rw-r--r-- 1 tanya tanya 177 2015-07-26 16:50 htop.desktop
+
+targetfs/usr/share/bash-completion:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:50 completions
+
+targetfs/usr/share/bash-completion/completions:
+total 4
+-rw-r--r-- 1 tanya tanya 3235 2015-07-26 16:50 kmod
+
+targetfs/usr/share/dbus-1:
+total 8
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 16:47 services
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 16:47 system-services
+
+targetfs/usr/share/dbus-1/services:
+total 0
+
+targetfs/usr/share/dbus-1/system-services:
+total 0
+
+targetfs/usr/share/locale:
+total 132
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 ca
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 cs
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 da
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 de
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 18:57 eo
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 es
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 et
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 eu
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 fi
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 fr
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 gl
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 hr
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 hu
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 id
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 it
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 ja
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 nl
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 16:55 nn
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 pl
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 16:55 pt
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 pt_BR
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 16:55 ro
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 ru
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 16:55 rw
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 16:55 sk
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 sl
+drwxrwxr-x 3 tanya tanya 4096 2015-07-30 16:55 sr
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 sv
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 tr
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 uk
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 vi
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 zh_CN
+drwxrwxr-x 3 tanya tanya 4096 2015-07-26 16:53 zh_TW
+
+targetfs/usr/share/locale/ca:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/ca/LC_MESSAGES:
+total 140
+-rw-r--r-- 1 tanya tanya 69814 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya 17080 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 47485 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/cs:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/cs/LC_MESSAGES:
+total 592
+-rw-r--r-- 1 tanya tanya 149259 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  58525 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 391289 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/da:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/da/LC_MESSAGES:
+total 288
+-rw-r--r-- 1 tanya tanya  52861 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 239825 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/de:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/de/LC_MESSAGES:
+total 564
+-rw-r--r-- 1 tanya tanya 153265 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  61862 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 355053 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/eo:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/eo/LC_MESSAGES:
+total 88
+-rw-r--r-- 1 tanya tanya 89792 2015-07-30 18:57 e2fsprogs.mo
+
+targetfs/usr/share/locale/es:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/es/LC_MESSAGES:
+total 316
+-rw-r--r-- 1 tanya tanya  81538 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  28228 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 209826 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/et:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:53 LC_MESSAGES
+
+targetfs/usr/share/locale/et/LC_MESSAGES:
+total 32
+-rw-r--r-- 1 tanya tanya 29635 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/eu:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:53 LC_MESSAGES
+
+targetfs/usr/share/locale/eu/LC_MESSAGES:
+total 24
+-rw-r--r-- 1 tanya tanya 23016 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/fi:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:53 LC_MESSAGES
+
+targetfs/usr/share/locale/fi/LC_MESSAGES:
+total 92
+-rw-r--r-- 1 tanya tanya 92893 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/fr:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/fr/LC_MESSAGES:
+total 616
+-rw-r--r-- 1 tanya tanya 149443 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  70894 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 404818 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/gl:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/gl/LC_MESSAGES:
+total 40
+-rw-r--r-- 1 tanya tanya 17571 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 18174 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/hr:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:53 LC_MESSAGES
+
+targetfs/usr/share/locale/hr/LC_MESSAGES:
+total 32
+-rw-r--r-- 1 tanya tanya 29158 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/hu:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:53 LC_MESSAGES
+
+targetfs/usr/share/locale/hu/LC_MESSAGES:
+total 56
+-rw-r--r-- 1 tanya tanya 57337 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/id:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/id/LC_MESSAGES:
+total 216
+-rw-r--r-- 1 tanya tanya 86783 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya 64121 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 62051 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/it:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/it/LC_MESSAGES:
+total 176
+-rw-r--r-- 1 tanya tanya 58082 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya 71147 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 42760 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/ja:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/ja/LC_MESSAGES:
+total 452
+-rw-r--r-- 1 tanya tanya  80596 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 378331 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/nl:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/nl/LC_MESSAGES:
+total 568
+-rw-r--r-- 1 tanya tanya 148426 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  70970 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 354724 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/nn:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/nn/LC_MESSAGES:
+total 20
+-rw-r--r-- 1 tanya tanya 16928 2015-07-30 16:55 parted.mo
+
+targetfs/usr/share/locale/pl:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/pl/LC_MESSAGES:
+total 596
+-rw-r--r-- 1 tanya tanya 146563 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  70440 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 388557 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/pt:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/pt/LC_MESSAGES:
+total 16
+-rw-r--r-- 1 tanya tanya 12424 2015-07-30 16:55 parted.mo
+
+targetfs/usr/share/locale/pt_BR:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/pt_BR/LC_MESSAGES:
+total 396
+-rw-r--r-- 1 tanya tanya  12759 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 388482 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/ro:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/ro/LC_MESSAGES:
+total 16
+-rw-r--r-- 1 tanya tanya 12551 2015-07-30 16:55 parted.mo
+
+targetfs/usr/share/locale/ru:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/ru/LC_MESSAGES:
+total 124
+-rw-r--r-- 1 tanya tanya 76226 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 45377 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/rw:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/rw/LC_MESSAGES:
+total 4
+-rw-r--r-- 1 tanya tanya 1004 2015-07-30 16:55 parted.mo
+
+targetfs/usr/share/locale/sk:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/sk/LC_MESSAGES:
+total 72
+-rw-r--r-- 1 tanya tanya 69874 2015-07-30 16:55 parted.mo
+
+targetfs/usr/share/locale/sl:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/sl/LC_MESSAGES:
+total 112
+-rw-r--r-- 1 tanya tanya 65560 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 44544 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/sr:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/sr/LC_MESSAGES:
+total 68
+-rw-r--r-- 1 tanya tanya 68934 2015-07-30 16:55 parted.mo
+
+targetfs/usr/share/locale/sv:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/sv/LC_MESSAGES:
+total 240
+-rw-r--r-- 1 tanya tanya 141778 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  51222 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya  46423 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/tr:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/tr/LC_MESSAGES:
+total 192
+-rw-r--r-- 1 tanya tanya 73038 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya 70468 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 46304 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/uk:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/uk/LC_MESSAGES:
+total 780
+-rw-r--r-- 1 tanya tanya 197695 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  90507 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 502426 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/vi:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/vi/LC_MESSAGES:
+total 628
+-rw-r--r-- 1 tanya tanya 154415 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  71516 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 413043 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/zh_CN:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 18:57 LC_MESSAGES
+
+targetfs/usr/share/locale/zh_CN/LC_MESSAGES:
+total 344
+-rw-r--r-- 1 tanya tanya  22427 2015-07-30 18:57 e2fsprogs.mo
+-rw-r--r-- 1 tanya tanya  14166 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 308975 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/locale/zh_TW:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-30 16:55 LC_MESSAGES
+
+targetfs/usr/share/locale/zh_TW/LC_MESSAGES:
+total 120
+-rw-r--r-- 1 tanya tanya 51218 2015-07-30 16:55 parted.mo
+-rw-r--r-- 1 tanya tanya 67432 2015-07-26 16:53 util-linux.mo
+
+targetfs/usr/share/pixmaps:
+total 4
+-rw-r--r-- 1 tanya tanya 3657 2015-07-26 16:50 htop.png
+
+targetfs/usr/share/screen:
+total 4
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:55 utf8encodings
+
+targetfs/usr/share/screen/utf8encodings:
+total 316
+-rw-rw-r-- 1 tanya tanya 29808 2015-07-26 16:55 01
+-rw-rw-r-- 1 tanya tanya 27550 2015-07-26 16:55 02
+-rw-rw-r-- 1 tanya tanya 32926 2015-07-26 16:55 03
+-rw-rw-r-- 1 tanya tanya 24302 2015-07-26 16:55 04
+-rw-rw-r-- 1 tanya tanya 54862 2015-07-26 16:55 18
+-rw-rw-r-- 1 tanya tanya 95776 2015-07-26 16:55 19
+-rw-rw-r-- 1 tanya tanya   536 2015-07-26 16:55 a1
+-rw-rw-r-- 1 tanya tanya   232 2015-07-26 16:55 bf
+-rw-rw-r-- 1 tanya tanya   256 2015-07-26 16:55 c2
+-rw-rw-r-- 1 tanya tanya   140 2015-07-26 16:55 c3
+-rw-rw-r-- 1 tanya tanya   228 2015-07-26 16:55 c4
+-rw-rw-r-- 1 tanya tanya    68 2015-07-26 16:55 c6
+-rw-rw-r-- 1 tanya tanya    52 2015-07-26 16:55 c7
+-rw-rw-r-- 1 tanya tanya    40 2015-07-26 16:55 c8
+-rw-rw-r-- 1 tanya tanya    68 2015-07-26 16:55 cc
+-rw-rw-r-- 1 tanya tanya    52 2015-07-26 16:55 cd
+-rw-rw-r-- 1 tanya tanya   212 2015-07-26 16:55 d6
+
+targetfs/usr/share/terminfo:
+total 20
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:48 a
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:48 l
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:48 s
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:48 v
+drwxrwxr-x 2 tanya tanya 4096 2015-07-26 16:48 x
+
+targetfs/usr/share/terminfo/a:
+total 4
+-rw-r--r-- 1 tanya tanya 1481 2015-07-26 16:48 ansi
+
+targetfs/usr/share/terminfo/l:
+total 4
+-rw-r--r-- 1 tanya tanya 1790 2015-07-26 16:48 linux
+
+targetfs/usr/share/terminfo/s:
+total 4
+-rw-r--r-- 1 tanya tanya 1564 2015-07-26 16:48 screen
+
+targetfs/usr/share/terminfo/v:
+total 16
+-rw-r--r-- 1 tanya tanya 1194 2015-07-26 16:48 vt100
+-rw-r--r-- 1 tanya tanya 1188 2015-07-26 16:48 vt102
+-rw-r--r-- 1 tanya tanya 1279 2015-07-26 16:48 vt200
+-rw-r--r-- 1 tanya tanya 1279 2015-07-26 16:48 vt220
+
+targetfs/usr/share/terminfo/x:
+total 12
+-rw-r--r-- 1 tanya tanya 3270 2015-07-26 16:48 xterm
+-rw-r--r-- 1 tanya tanya 1551 2015-07-26 16:48 xterm-color
+-rw-r--r-- 1 tanya tanya 2247 2015-07-26 16:48 xterm-xfree86
+
+targetfs/usr/share/udhcpc:
+total 4
+-rwxr-xr-x 1 tanya tanya 1611 2015-07-26 16:46 default.script
+
+targetfs/var:
+total 8
+lrwxrwxrwx 1 tanya tanya    6 2016-06-01 17:52 cache -> ../tmp
+drwxrwxr-x 4 tanya tanya 4096 2016-04-03 10:21 lib
+lrwxrwxrwx 1 tanya tanya    6 2016-06-01 17:52 lock -> ../tmp
+lrwxrwxrwx 1 tanya tanya    6 2016-06-01 17:52 log -> ../tmp
+lrwxrwxrwx 1 tanya tanya    6 2016-06-01 17:52 run -> ../tmp
+lrwxrwxrwx 1 tanya tanya    6 2016-06-01 17:52 spool -> ../tmp
+lrwxrwxrwx 1 tanya tanya    6 2016-06-01 17:52 tmp -> ../tmp
+drwxr-xr-x 2 tanya tanya 4096 2015-07-26 17:00 www
+
+targetfs/var/lib:
+total 8
+drwxr-xr-x 2 tanya tanya 4096 2016-04-03 09:23 arpd
+lrwxrwxrwx 1 tanya tanya    9 2016-06-01 17:52 dbus -> /tmp/dbus
+lrwxrwxrwx 1 tanya tanya    9 2016-06-01 17:52 misc -> ../../tmp
+drwxrwxr-x 4 tanya tanya 4096 2016-04-12 22:28 nfs
+
+targetfs/var/lib/arpd:
+total 0
+
+targetfs/var/lib/nfs:
+total 16
+-rw-r--r-- 1 tanya tanya    0 2016-04-12 22:28 etab
+-rw-r--r-- 1 tanya tanya    0 2015-09-17 21:27 export-lock
+-rw-r--r-- 1 tanya tanya   72 2016-04-12 22:28 rmtab
+drwx------ 2 tanya tanya 4096 2015-07-26 16:52 sm
+drwx------ 2 tanya tanya 4096 2015-07-26 16:52 sm.bak
+-rw-r--r-- 1 tanya tanya    4 2016-04-12 22:28 state
+-rw-r--r-- 1 tanya tanya    0 2016-04-12 22:28 xtab
+
+targetfs/var/lib/nfs/sm:
+total 0
+
+targetfs/var/lib/nfs/sm.bak:
+total 0
+
+targetfs/var/www:
+total 0

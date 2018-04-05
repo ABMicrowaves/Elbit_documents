@@ -1,0 +1,112 @@
+BITManager:
+total 148K
+-rw-rw-r-- 1 tanya tanya 5.6K 2016-01-13 09:03 BITDefs.c
+-rw-rw-r-- 1 tanya tanya 1.1K 2016-04-04 22:07 BITDefs.h
+-rw-rw-r-- 1 tanya tanya  12K 2016-01-14 10:12 BITManager.c
+-rw-rw-r-- 1 tanya tanya  726 2016-01-13 08:52 BITManager.h
+drwxrwxr-x 4 tanya tanya 4.0K 2016-01-13 09:39 build
+drwxrwxr-x 3 tanya tanya 4.0K 2015-11-08 22:17 dist
+-rw-rw-r-- 1 tanya tanya 1.1K 2016-01-13 08:59 main.c
+-rw-rw-r-- 1 tanya tanya 3.5K 2015-09-20 13:31 Makefile
+-rw-rw-r-- 1 tanya tanya  63K 2016-01-13 12:14 marvell_switch_bit.c
+-rw-rw-r-- 1 tanya tanya 4.2K 2015-12-20 10:36 marvell_switch_bit.h
+-rwxrwxr-x 1 tanya tanya 3.0K 2015-12-07 17:41 marvell_switch.c
+-rw-rw-r-- 1 tanya tanya 5.7K 2015-11-26 13:15 marvell_switch.h
+drwxrwxr-x 3 tanya tanya 4.0K 2015-12-08 15:06 nbproject
+-rw-rw-r-- 1 tanya tanya 8.1K 2015-11-25 11:28 SRBIT.c
+-rw-rw-r-- 1 tanya tanya  610 2016-01-13 09:00 SRBIT.h
+
+BITManager/build:
+total 8.0K
+drwxrwxr-x 3 tanya tanya 4.0K 2016-01-13 09:39 Debug
+drwxrwxr-x 3 tanya tanya 4.0K 2015-11-03 14:32 Release
+
+BITManager/build/Debug:
+total 4.0K
+drwxrwxr-x 3 tanya tanya 4.0K 2016-04-04 22:07 powerpc-Linux-x86
+
+BITManager/build/Debug/powerpc-Linux-x86:
+total 152K
+-rw-rw-r-- 1 tanya tanya  12K 2016-04-04 22:07 BITDefs.o
+-rw-rw-r-- 1 tanya tanya  482 2016-04-04 22:07 BITDefs.o.d
+-rw-rw-r-- 1 tanya tanya  27K 2016-04-04 22:07 BITManager.o
+-rw-rw-r-- 1 tanya tanya  519 2016-04-04 22:07 BITManager.o.d
+drwxrwxr-x 3 tanya tanya 4.0K 2016-01-13 09:39 _ext
+-rw-rw-r-- 1 tanya tanya 4.0K 2016-04-04 22:07 main.o
+-rw-rw-r-- 1 tanya tanya  154 2016-04-04 22:07 main.o.d
+-rw-rw-r-- 1 tanya tanya  65K 2016-04-04 22:07 marvell_switch_bit.o
+-rw-rw-r-- 1 tanya tanya  521 2016-04-04 22:07 marvell_switch_bit.o.d
+-rw-rw-r-- 1 tanya tanya  16K 2016-01-13 09:39 SRBIT.o
+-rw-rw-r-- 1 tanya tanya  356 2016-01-13 09:39 SRBIT.o.d
+
+BITManager/build/Debug/powerpc-Linux-x86/_ext:
+total 4.0K
+drwxrwxr-x 2 tanya tanya 4.0K 2016-04-04 22:07 1847122038
+
+BITManager/build/Debug/powerpc-Linux-x86/_ext/1847122038:
+total 84K
+-rw-rw-r-- 1 tanya tanya 55K 2016-01-13 09:39 dtuIf.o
+-rw-rw-r-- 1 tanya tanya 554 2016-01-13 09:39 dtuIf.o.d
+-rw-rw-r-- 1 tanya tanya 18K 2016-04-04 22:07 dtuTest.o
+-rw-rw-r-- 1 tanya tanya 471 2016-04-04 22:07 dtuTest.o.d
+
+BITManager/build/Release:
+total 4.0K
+drwxrwxr-x 3 tanya tanya 4.0K 2015-12-07 17:49 GNU-Linux-x86
+
+BITManager/build/Release/GNU-Linux-x86:
+total 96K
+-rw-rw-r-- 1 tanya tanya 2.8K 2015-12-07 17:49 BITDefs.o
+-rw-rw-r-- 1 tanya tanya 1011 2015-12-07 17:49 BITDefs.o.d
+-rw-rw-r-- 1 tanya tanya  21K 2015-12-07 17:49 BITManager.o
+-rw-rw-r-- 1 tanya tanya  649 2015-12-07 17:49 BITManager.o.d
+drwxrwxr-x 3 tanya tanya 4.0K 2015-11-03 14:32 _ext
+-rw-rw-r-- 1 tanya tanya 6.0K 2015-12-07 17:49 main.o
+-rw-rw-r-- 1 tanya tanya  154 2015-12-07 17:49 main.o.d
+-rw-rw-r-- 1 tanya tanya  21K 2015-12-07 17:49 marvell_switch_bit.o
+-rw-rw-r-- 1 tanya tanya 1.1K 2015-12-07 17:49 marvell_switch_bit.o.d
+-rw-rw-r-- 1 tanya tanya 1.5K 2015-12-07 17:49 marvell_switch.o
+-rw-rw-r-- 1 tanya tanya  980 2015-12-07 17:49 marvell_switch.o.d
+-rw-rw-r-- 1 tanya tanya 3.8K 2015-12-07 17:49 SRBIT.o
+-rw-rw-r-- 1 tanya tanya  879 2015-12-07 17:49 SRBIT.o.d
+
+BITManager/build/Release/GNU-Linux-x86/_ext:
+total 4.0K
+drwxrwxr-x 2 tanya tanya 4.0K 2015-12-07 17:49 1847122038
+
+BITManager/build/Release/GNU-Linux-x86/_ext/1847122038:
+total 40K
+-rw-rw-r-- 1 tanya tanya  19K 2015-12-07 17:48 dtuIf.o
+-rw-rw-r-- 1 tanya tanya  794 2015-12-07 17:48 dtuIf.o.d
+-rw-rw-r-- 1 tanya tanya 9.4K 2015-12-07 17:49 dtuTest.o
+-rw-rw-r-- 1 tanya tanya  417 2015-12-07 17:49 dtuTest.o.d
+
+BITManager/dist:
+total 4.0K
+drwxrwxr-x 3 tanya tanya 4.0K 2015-11-08 22:17 Release
+
+BITManager/dist/Release:
+total 4.0K
+drwxrwxr-x 2 tanya tanya 4.0K 2015-12-07 17:49 GNU-Linux-x86
+
+BITManager/dist/Release/GNU-Linux-x86:
+total 0
+
+BITManager/nbproject:
+total 44K
+-rw-rw-r-- 1 tanya tanya 6.9K 2015-12-08 15:06 configurations.xml
+-rw-rw-r-- 1 tanya tanya 3.6K 2015-12-08 15:06 Makefile-Debug.mk
+-rw-rw-r-- 1 tanya tanya 4.2K 2015-12-08 15:06 Makefile-impl.mk
+-rw-rw-r-- 1 tanya tanya 3.1K 2015-12-08 15:06 Makefile-Release.mk
+-rw-rw-r-- 1 tanya tanya 1.3K 2015-09-20 13:31 Makefile-variables.mk
+-rw-rw-r-- 1 tanya tanya 1.5K 2015-09-20 13:31 Package-Debug.bash
+-rw-rw-r-- 1 tanya tanya 1.5K 2015-09-20 13:31 Package-Release.bash
+drwxrwxr-x 2 tanya tanya 4.0K 2015-11-25 11:28 private
+-rw-rw-r-- 1 tanya tanya 1.1K 2015-12-08 15:06 project.xml
+
+BITManager/nbproject/private:
+total 16K
+-rw-rw-r-- 1 tanya tanya 2.4K 2015-09-20 13:31 configurations.xml
+-rw-rw-r-- 1 tanya tanya 2.0K 2015-09-20 13:31 launcher.properties
+-rw-rw-r-- 1 tanya tanya   88 2015-09-20 13:31 Makefile-variables.mk
+-rw-rw-r-- 1 tanya tanya  521 2015-11-25 11:28 private.xml
